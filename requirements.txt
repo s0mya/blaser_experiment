@@ -1,0 +1,4 @@
+torch>=2.0.0
+sonar-space>=0.4.0
+ipywidgets>=8.0.0
+jupyter
