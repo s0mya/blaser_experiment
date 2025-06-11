@@ -16,7 +16,7 @@ There are two main models:
 
 1. **Install UV** (a faster alternative to pip)
    ```bash
-   curl -sSf https://install.python-uv.org | python3
+   curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
 2. **Clone this repository**

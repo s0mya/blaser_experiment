@@ -15,15 +15,5 @@ dependencies = [
 ]
 
 [build-system]
-requires = ["uv>=0.1.15"]
-build-backend = "uv"
-
-[tool.uv]
-python = "3.10"  # Target Python version
-exclude = ["**/.git/**", "**/.venv/**", "**/__pycache__/**"]
-
-[tool.uv.install]
-no-cache = false
-
-[tool.uv.dependencies]
-fairseq2 = { version = ">= 0.4.5", index-url = "https://fair.pkg.atmeta.com/fairseq2/whl/pt{pt_version}/{cuda_version}" }
+requires = ["setuptools>=61.0.0", "uv>=0.1.15"]
+build-backend = "setuptools.build_meta"
